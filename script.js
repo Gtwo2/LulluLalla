@@ -23,7 +23,6 @@ let cl_ass = 8;
 const lunch_url = `https://open.neis.go.kr/hub/mealServiceDietInfo?TYPE=JSON&ATPT_OFCDC_SC_CODE=${location_code}&SD_SCHUL_CODE=${school_code}&KEY=${api_key}&MLSV_YMD=${date_string}`;
 const time_url = `https://open.neis.go.kr/hub/misTimetable?Type=json&ATPT_OFCDC_SC_CODE=${location_code}&SD_SCHUL_CODE=${school_code}&GRADE=${grade}&CLASS_NM=${cl_ass}&KEY=${api_key}&ALL_TI_YMD=${date_string}`
 
-console.log(lunch_url)
 fetch(lunch_url)
   .then(response => {
     if (!response.ok) {
