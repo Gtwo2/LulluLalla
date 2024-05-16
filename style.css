@@ -1,0 +1,66 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      accent-color: var(--native-dark-accent-color);
+  }
+  
+  html a:visited, 
+    html a:visited > *:not(svg) {
+      color: var(--native-dark-visited-link-color) !important;
+    }
+    
+    a[ping]:link,
+    a[ping]:link > *:not(svg),
+    :link:not(cite) {
+      color: var(--native-dark-link-color) !important;
+    }
+    
+    html cite,
+    html cite a:link,
+    html cite a:visited {
+      color: var(--native-dark-cite-color) !important;
+    }
+    
+    img,
+    image,
+    figure:empty {
+      opacity: var(--native-dark-opacity) !important;
+    }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      color-scheme: white;
+      accent-color: var(--native-dark-accent-color);
+  }
+  
+  html a:visited, 
+    html a:visited > *:not(svg) {
+      color: var(--native-dark-visited-link-color) !important;
+    }
+    
+    a[ping]:link,
+    a[ping]:link > *:not(svg),
+    :link:not(cite) {
+      color: var(--native-dark-link-color) !important;
+    }
+    
+    html cite,
+    html cite a:link,
+    html cite a:visited {
+      color: var(--native-dark-cite-color) !important;
+    }
+    
+    img,
+    image,
+    figure:empty {
+      opacity: var(--native-dark-opacity) !important;
+    }
+  }
+
+.outer {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 27.5vh;
+}
