@@ -58,9 +58,62 @@
     }
   }
 
+#title {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#ch {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: -7.5px;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .outer {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    margin-top: 27.5vh;
+  text-align: center;
+}
+
+#des {
+  margin-top: -20px;
+}
+
+#toggle {
+  color: rgb(124, 124, 124);
+  background-color: transparent;
+  border: none;
+}
+
+#leftbtn {
+  color: rgb(124, 124, 124);
+  background-color: transparent;
+  border: none;
+}
+
+#leftbtn:hover {
+  color: #4b5ff4;
+  font-weight: bold;
+}
+
+#rightbtn {
+  color: rgb(124, 124, 124);
+  background-color: transparent;
+  border: none;
+}
+
+#rightbtn:hover {
+  color:#4b5ff4;
+  font-weight: bold;
+}
+
+.ctrl {
+  margin-top: -7.5px;
 }
