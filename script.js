@@ -17,7 +17,6 @@ function fnffn(plus) {
   today.setDate(today.getDate() + plus); // plus 값을 오늘 날짜에 더함
   let adjustedDate = new Date(today); // 새로운 날짜 객체를 생성
 
-  console.log(plus);
   var desP = document.getElementById('des');
   desP.textContent = yyyymmdd2(adjustedDate); // 수정된 날짜를 사용
   let date_string = yyyymmdd(adjustedDate); // 수정된 날짜를 사용
@@ -38,7 +37,6 @@ function fnffn(plus) {
     })
     .then(data => {
       if (data.RESULT && data.RESULT.MESSAGE) {
-        console.log(data);
         let message = data.RESULT.MESSAGE;
         if (message === "해당하는 데이터가 없습니다.") {
           let GoodELEMENT = document.querySelector('.menu');
