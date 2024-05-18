@@ -14,12 +14,12 @@ function fnffn(plus) {
   }
 
   let today = new Date();
-  today.setDate(today.getDate() + plus); // plus 값을 오늘 날짜에 더함
-  let adjustedDate = new Date(today); // 새로운 날짜 객체를 생성
+  today.setDate(today.getDate() + plus);
+  let adjustedDate = new Date(today);
 
   var desP = document.getElementById('des');
-  desP.textContent = yyyymmdd2(adjustedDate); // 수정된 날짜를 사용
-  let date_string = yyyymmdd(adjustedDate); // 수정된 날짜를 사용
+  desP.textContent = yyyymmdd2(adjustedDate);
+  let date_string = yyyymmdd(adjustedDate);
 
   let api_key = "0ee0c17caaa7492d873adc0bb8e618e1"; // 넘어가주세요
 
