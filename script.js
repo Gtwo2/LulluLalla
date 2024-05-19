@@ -40,7 +40,7 @@ function fnffn(plus) {
         let message = data.RESULT.MESSAGE;
         if (message === "해당하는 데이터가 없습니다.") {
           let GoodELEMENT = document.querySelector('.menu');
-          ["오늘은 급식이 없는것 같아요!"].forEach(item => {
+          ["급식이 없거나, 아직 정보가 제공되지 않은 거 같아요."].forEach(item => {
             let p = document.createElement('p');
             p.id = 'message';
             p.textContent = item;
