@@ -63,6 +63,10 @@
   font-weight: bold;
 }
 
+#title:hover {
+    text-decoration: underline;
+}
+
 #ch {
   font-size: x-large;
   font-weight: bold;
