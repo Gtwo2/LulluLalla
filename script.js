@@ -157,3 +157,7 @@ rightBtn.addEventListener('click', () => {
   fnffn(awesome);
 });
 
+async function repo() {
+    window.open('https://github.com/Gtwo2')
+}
+
